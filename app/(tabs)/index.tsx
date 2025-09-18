@@ -5,7 +5,7 @@ export default function IndexScreen() {
   const [reminder, setReminder] = useState("");
   const [reminders, setReminders] = useState<{ text: string }[]>([]);
 
-  // Replace with your Render backend URL
+  // backend url
   const backendUrl = "https://microreminder.onrender.com";
 
   const fetchReminders = async () => {
